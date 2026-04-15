@@ -20,12 +20,18 @@ public class Exo6_10 {
                 min = tab[i];
             }
 
-            tabC[i] = tab[i];
+            tabC[i] = tab[i]; //copie
         }
 
         System.out.println("\nSomme : " + somme); //16
         System.out.println("Max = " + max);       //9
         System.out.println("Min = " + min);       //0
+
+        // Affichage du tableau copié
+        System.out.print("TabC : ");
+        for (int i = 0; i < tabC.length; i++) {
+            System.out.print(tabC[i] + " ");
+        }
 
     }
 }
