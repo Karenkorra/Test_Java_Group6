@@ -13,7 +13,7 @@ public class Exo5{
 
                 i = 3
 
-                i++ → ampiasaina 3, avy eo i = 4
+                i++ → on utilise 3 (puis i = 4)
 
             Calcul :
                 res = 3 + 2 = 5
